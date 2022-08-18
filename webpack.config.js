@@ -19,7 +19,7 @@ module.exports = (env) => {
     },
     output: {
       path: path.join(__dirname, "build"),
-      filename: "dist/[name].js",
+      filename: "public/[name].js",
     },
     resolve: {
       extensions: [".js", ".jsx", ".ts", ".tsx", ".css"],
