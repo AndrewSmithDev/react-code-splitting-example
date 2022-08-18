@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkreact_code_splitting_example=self.webpackChunkreact_code_splitting_example||[]).push([[527],{527:(e,t,l)=>{l.r(t),l.d(t,{default:()=>c});var a=l(294);function c(){return a.createElement("div",null,"About")}}}]);
