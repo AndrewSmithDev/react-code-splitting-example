@@ -58,11 +58,11 @@ export const Routesa = () => {
 };
 ```
 
-# Building the Application
+# Run the Application
 
-- Build: To build the server you can run `npm run build`. This will be the application and output the files to the public directory
-- Dev: If you want to play around with the code you can run `npm start` which will start a webpack dev server with HMR
+- To build the server you can run `npm run build`. This will be the application and output the files to the public directory
+- To run the dev server you can run `npm start` which will start a webpack dev server with HMR
 
 # Live Demo
 
-You can view a live demo [here](react-code-splitting-example.vercel.app). There's nothing speculate about the interface the application is just a proof of concept.
+You can view a live demo [here](https://react-code-splitting-example.vercel.app/). There's nothing speculate about the interface the application is just a proof of concept.
