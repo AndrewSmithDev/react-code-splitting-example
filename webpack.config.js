@@ -18,8 +18,8 @@ module.exports = (env) => {
       src: path.resolve(__dirname, "src/index.tsx"),
     },
     output: {
-      path: path.join(__dirname, "build"),
-      filename: "public/[name].js",
+      path: path.join(__dirname, "public"),
+      filename: "[name].js",
     },
     resolve: {
       extensions: [".js", ".jsx", ".ts", ".tsx", ".css"],
