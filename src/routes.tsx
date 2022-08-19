@@ -8,7 +8,7 @@ const About = React.lazy(() => import("./pages/about"));
 const Contact = React.lazy(() => import("./pages/contact"));
 const NotFound = React.lazy(() => import("./pages/not-found"));
 
-export const Router = () => {
+export default function Router() {
   return (
     <BrowserRouter>
       <Nav />
@@ -48,4 +48,4 @@ export const Router = () => {
       </Routes>
     </BrowserRouter>
   );
-};
+}
