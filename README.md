@@ -2,7 +2,7 @@
 
 This is a basic example of how you can use code splitting in React with webpack.
 
-It's possible to dynamically import components and only load them when they're needed by using `React.lazy` and `React.Suspense`. Here is a quick snippet on how it works. You can view the entire code for more details.
+It's possible to dynamically import components and only load them when they're needed by using `React.lazy` and `React.Suspense`. Here is a quick snippet on how it works. You can view the rest of the repo for more details.
 
 ```typescript
 import React from "react";
@@ -60,9 +60,9 @@ export const Routesa = () => {
 
 # Run the Application
 
-- To build the server you can run `npm run build`. This will be the application and output the files to the public directory
+- To build the server you can run `npm run build`. This will build the application and output the files to the public directory
 - To run the dev server you can run `npm start` which will start a webpack dev server with HMR
 
 # Live Demo
 
-You can view a live demo [here](https://react-code-splitting-example.vercel.app/). There's nothing spectacular about the interface the application is just a proof of concept.
+You can view a live demo [here](https://react-code-splitting-example.vercel.app/). There's nothing spectacular about the interface, the application is just a proof of concept.
