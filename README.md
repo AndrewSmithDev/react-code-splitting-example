@@ -65,4 +65,4 @@ export const Routesa = () => {
 
 # Live Demo
 
-You can view a live demo [here](https://react-code-splitting-example.vercel.app/). There's nothing speculate about the interface the application is just a proof of concept.
+You can view a live demo [here](https://react-code-splitting-example.vercel.app/). There's nothing spectacular about the interface the application is just a proof of concept.
